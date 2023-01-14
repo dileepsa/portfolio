@@ -595,3 +595,9 @@ footer .text span a:hover {
     color: var(--primary-color);
   }
 }
+
+.underline {
+  width: 350px;
+  height: 30px;
+  background-color: #ff8882;
+}
