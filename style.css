@@ -429,29 +429,6 @@ section .button button:hover {
   margin: auto;
 }
 
-/* Footer CSS */
-footer {
-  background: var(--primary-color);
-  padding: 15px 0;
-  text-align: center;
-  font-family: 'Poppins', sans-serif;
-}
-
-footer .text span {
-  font-size: 17px;
-  font-weight: 400;
-  color: var(--white-color);
-}
-
-footer .text span a {
-  font-weight: 500;
-  color: var(--white-color);
-}
-
-footer .text span a:hover {
-  text-decoration: underline;
-}
-
 /* Scroll To Top Button CSS */
 .scroll-button a {
   position: fixed;
@@ -599,5 +576,5 @@ footer .text span a:hover {
 .underline {
   width: 350px;
   height: 30px;
-  background-color: #ff8882;
+  background-color: var(--primary-color);
 }
